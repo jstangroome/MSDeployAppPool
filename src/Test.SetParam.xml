@@ -1,0 +1,8 @@
+<parameters>
+  <setParameter name="providerPath" value="TemplateApplicationPool" />
+  <setParameter name="managedPipelineMode" value="Classic" />
+  <setParameter name="identityType" value="SpecificUser" />
+  <setParameter name="username" value="Domain\User" />
+  <setParameter name="password" value="Password" />
+  <setParameter name="managedRuntimeVersion" value="v2.0" />
+</parameters>
