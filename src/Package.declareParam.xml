@@ -3,7 +3,7 @@
     <parameterEntry kind="providerPath" scope="appPoolConfig" />
   </parameter>
   <parameter name="managedPipelineMode" description="managedPipelineMode" defaultValue="Integrated">
-    <parameterValidation kind="RegularExpression" validationString="(Integrated|Classic)"/>
+    <parameterValidation kind="RegularExpression" validationString="(Integrated|Classic)" />
     <parameterEntry kind="DeploymentObjectAttribute" scope="appPoolConfig" match="//@managedPipelineMode" />
   </parameter>
   <parameter name="identityType" description="identityType" defaultValue="ApplicationPoolIdentity">
@@ -17,7 +17,7 @@
     <parameterEntry kind="DeploymentObjectAttribute" scope="processModel" match="processModel/@password" />
   </parameter>
   <parameter name="managedRuntimeVersion" description="managedRuntimeVersion" defaultValue="v4.0">
-    <parameterValidation kind="RegularExpression" validationString="(v2.0|v4.0)" />
+    <parameterValidation kind="RegularExpression" validationString="(v2\.0|v4\.0)" />
     <parameterEntry kind="DeploymentObjectAttribute" scope="appPoolConfig" match="//@managedRuntimeVersion" />
   </parameter>
 </parameters>

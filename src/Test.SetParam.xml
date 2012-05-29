@@ -1,5 +1,5 @@
 <parameters>
-  <setParameter name="providerPath" value="TemplateApplicationPool" />
+  <setParameter name="providerPath" value="TestApplicationPool" />
   <setParameter name="managedPipelineMode" value="Classic" />
   <setParameter name="identityType" value="SpecificUser" />
   <setParameter name="username" value="Domain\User" />
